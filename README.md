@@ -3,6 +3,7 @@ Meanline design of Francis Turbines, based on the Bovet method (Contribution à 
 Meridional contour design based on: https://github.com/newton-raphson/francis-runner-design
 
 A easy-to-use in-browser version can be lauched through Google Collaboratory with: https://colab.research.google.com/drive/1WVGPDoRbQx1GHEFfpA5WqilT1Bm-kpY1?usp=sharing
+In this link theres also an example input and output.
 
 **Description of the main logic:**
 1.  The user inputs the initial machine parameters (flow rate, head, and rotational speed), and the program generates a meridional contour based on the theory of Bovet. This includes the meridional projection curves for the leading edge, trailing edge, shroud, and hub, as well as a number of meridional streamlines, which are defined by the user.
