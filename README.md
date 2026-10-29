@@ -11,7 +11,7 @@ In this link theres also an example input and output.
 3.  Based on the flow rate, hydraulic passage widths, and the number of guide vanes (specified by the user), the program defines the velocity triangle at the trailing edge of the guide vanes.
 4.  The program determines the velocity triangles at each intersection between the streamlines and the leading and trailing edges, applying the free-vortex relationship and trigonometric principles.
 5.  Finally, the program calculates the blade angles using the trigonometric relationships.
-6.  Once the blade angles for the nominal operating condition have been calculated and the user has specified the desired partial flow rates (in %), the program also calculates the opening angle of the guide vanes in order to minimize the flow incidence angle at the mean line of the turbine blades.
+6.  Once the blade angles for the nominal operating condition have been calculated and the user has specified the desired partial flow rates (in %, generally ranging from 100% to 40% of nominal flow rate), the program also calculates the opening angle of the guide vanes in order to minimize the flow incidence angle at the mean line of the turbine blades for the partial flow rate conditions.
 
 **Known flaws:**
 1.  The code doesn't work at every possible "Ns". There's a problem with the meridional contour generation.
